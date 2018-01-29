@@ -1,0 +1,7 @@
+.DS_Store
+wp-content/node_modules
+.sass-cache
+wp-config.php
+wp-settings.php
+/wp-content/themes/nothing-UI/images
+/wp-includes

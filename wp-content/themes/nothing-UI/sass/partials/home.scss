@@ -1,0 +1,66 @@
+.image-section {
+  background-size: cover !important;
+  background-position: left top !important;
+  height: 100%;
+  width: 100%;
+}
+
+.section-1 {
+  background: #484041;
+  height: 100%;
+  margin-top: -80px;
+
+  .section-1-text {
+
+    .welcome-text {
+      position: absolute;
+      bottom: 5%;
+      left: 50px;
+
+      .languages {
+        margin-left: 0;
+      }
+
+      .benefits {
+        margin-left: 40px;
+      }
+    }
+  }
+
+
+}
+
+.section-2 {
+  background: #434371;
+  height: 100%;
+
+  .about-content {
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 20%;
+    text-align: right;
+  }
+
+
+}
+
+.section-3 {
+  background: #79AEA3;
+  height: 100%;
+  text-align: center;
+
+  .service-box {
+    padding: 0 70px;
+    margin-top: 30%;
+  }
+}
+
+.section-4 {
+  background: #484041;
+  height: 100%;
+
+  .form {
+    margin-top: 30%;
+    margin-left: 10%;
+  }
+}
