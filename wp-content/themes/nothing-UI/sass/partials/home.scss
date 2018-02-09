@@ -26,8 +26,6 @@
       }
     }
   }
-
-
 }
 
 .section-2 {
@@ -51,7 +49,7 @@
 
   .service-box {
     padding: 0 70px;
-    margin-top: 30%;
+    margin-top: 18%;
   }
 }
 
@@ -62,5 +60,117 @@
   .form {
     margin-top: 30%;
     margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 781px) {
+  .section-1 {
+    // .welcome-text {
+    //   top: 200px;
+    //
+    //   .languages {
+    //     padding: 30px;
+    //   }
+    //
+    //   h1 {
+    //     font-size: 2.5rem;
+    //   }
+    // }
+    .section-1-text {
+
+      .welcome-text {
+        position: relative;
+        top: 100px;
+      }
+    }
+  }
+
+  .section-2 {
+
+    .about-content {
+      margin-top: 0;
+    }
+  }
+
+  .section-3 {
+
+    .service-box {
+      padding: 0 20px;
+    }
+
+    .proof-mobile {
+      margin-top: -20px;
+    }
+  }
+
+  .section-4 {
+
+    .form {
+      margin-top: 15%;
+    }
+  }
+
+  .image-section {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    display: none;
+  }
+
+  .section-1 {
+    height: 600px;
+    margin-top: 0;
+
+    .section-1-text {
+
+      .welcome-text {
+        position: relative;
+        // left: 20px;
+        // top: 45px;
+        left: 0;
+        margin-left: 20px;
+        top: 30px;
+        padding: 0 20px 0 0;
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+          margin-top: 0;
+        }
+
+        .benefits {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  .section-3 {
+    height: 1030px;
+
+    .proof-mobile {
+      margin-top: 50px;
+    }
+  }
+
+  .section-4 {
+
+    .form {
+      margin-left: 20px;
+
+      .uk-input,
+      .uk-textarea {
+        width: 95%;
+      }
+
+      .uk-button {
+        width: 95%;
+      }
+    }
   }
 }

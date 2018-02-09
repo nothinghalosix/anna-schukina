@@ -11,7 +11,7 @@
     <div class="welcome-text">
       <h1 class="uk-margin-remove-vertical">Anna Schukina</h1>
       <h1 class="uk-margin-remove-vertical">Translations</h1>
-      <h2>professional.transaltion.service</h2>
+      <h2>professional. transaltion. service</h2>
       <div class="languages" uk-grid>
         <div class="uk-with-1-2">
           <h3>languages</h3>
@@ -40,7 +40,7 @@
 </div>
 
 <div class="section-2" id="about" uk-grid>
-  <div class="uk-width-1-2@m">
+  <div class="uk-width-1-2@l uk-width-1-3@m">
     <?php $about_image = get_field('about_image'); ?>
       <div class="image-section" style="background: url(<?php echo $about_image['url']; ?>">
     </div>
@@ -64,17 +64,17 @@
 
   <!-- <div class="uk-container"> -->
     <!-- <div uk-grid> -->
-      <div class="uk-width-1-3@m service-box">
+      <div class="uk-width-1-3@l uk-width-1-2@s service-box">
         <span uk-icon="icon: file; ratio: 4"></span>
         <h2 class="uk-margin-remove-top">legal translation</h2>
         <?php the_field('service_translation'); ?>
       </div>
-      <div class="uk-width-1-3@m service-box">
+      <div class="uk-width-1-3@l uk-width-1-2@s service-box">
         <span uk-icon="icon: desktop; ratio: 4"></span>
         <h2 class="uk-margin-remove-top">website localization</h2>
         <?php the_field('service_website'); ?>
       </div>
-      <div class="uk-width-1-3@m service-box">
+      <div class="uk-width-1-3@l uk-width-1-2@s service-box proof-mobile">
         <span uk-icon="icon: pencil; ratio: 4"></span>
         <h2 class="uk-margin-remove-top">proofreading</h2>
         <?php the_field('service_proofing'); ?>
@@ -84,7 +84,7 @@
 </div>
 
 <div class="section-4" id="contact" uk-grid>
-    <div class="uk-width-1-2@m">
+    <div class="uk-width-1-2@l uk-width-1-1@s">
       <div class="form">
         <h1>contact</h1>
         <div class="uk-margin">
