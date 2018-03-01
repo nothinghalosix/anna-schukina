@@ -87,7 +87,7 @@
     <div class="uk-width-1-2@l uk-width-1-1@s">
       <div class="form">
         <h1>contact</h1>
-        <div class="uk-margin">
+        <!-- <div class="uk-margin">
           <input class="uk-input uk-form-width-medium" type="text" placeholder="name">
         </div>
         <div class="uk-margin">
@@ -99,7 +99,8 @@
         <div class="uk-margin">
           <textarea class="uk-textarea uk-form-width-medium" rows="5" placeholder="your message"></textarea>
         </div>
-        <button class="uk-button uk-button-default">send</button>
+        <button class="uk-button uk-button-default">send</button> -->
+        <?php echo do_shortcode('[contact-form-7 id="39" title="Custom contact form" html_class="uk-form-horizontal uk-margin-large"]'); ?>
     </div>
   </div>
   <div class="uk-width-1-2@m">

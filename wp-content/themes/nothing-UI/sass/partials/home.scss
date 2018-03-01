@@ -49,7 +49,7 @@
 
   .service-box {
     padding: 0 70px;
-    margin-top: 18%;
+    margin-top: 20%;
   }
 }
 
@@ -58,24 +58,14 @@
   height: 100%;
 
   .form {
-    margin-top: 30%;
+    margin-top: 15%;
     margin-left: 10%;
   }
 }
 
 @media screen and (max-width: 781px) {
   .section-1 {
-    // .welcome-text {
-    //   top: 200px;
-    //
-    //   .languages {
-    //     padding: 30px;
-    //   }
-    //
-    //   h1 {
-    //     font-size: 2.5rem;
-    //   }
-    // }
+
     .section-1-text {
 
       .welcome-text {
@@ -121,7 +111,7 @@
   }
 
   .section-1 {
-    height: 600px;
+    height: 700px;
     margin-top: 0;
 
     .section-1-text {
@@ -151,7 +141,11 @@
   }
 
   .section-3 {
-    height: 1030px;
+    height: 1190px;
+
+    .service-box {
+      margin-top: 15%;
+    }
 
     .proof-mobile {
       margin-top: 50px;
@@ -159,6 +153,7 @@
   }
 
   .section-4 {
+    height: 780px;
 
     .form {
       margin-left: 20px;

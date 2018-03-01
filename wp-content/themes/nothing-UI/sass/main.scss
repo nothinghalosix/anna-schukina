@@ -2,7 +2,7 @@
 @import 'partials/header';
 @import 'partials/navigation';
 @import 'partials/home';
-
+@import 'partials/contact';
 @import 'partials/footer';
 
 h1 {
@@ -26,6 +26,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+  font-size: 18px;
 }
 
 /* OVERWRITES */
@@ -63,14 +64,14 @@ body {
 
 .uk-input,
 .uk-textarea {
-  width: 60%;
+  width: 80%;
   border: 0;
 }
 
 .uk-button-default {
   background: $white;
   text-transform: none;
-  width: 60%;
+  width: 80%;
 
   &:hover {
     color: $white;
