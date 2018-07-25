@@ -1,19 +1,34 @@
 {
-  "name": "schukina",
+  "name": "tailwind-css-boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "Gruntfile.js",
+  "description": "tailwind css install",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-header": "^2.0.5",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "npm": "^6.2.0",
+    "tailwindcss": "^0.6.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "wolfgang",
-  "license": "ISC",
-  "dependencies": {
-    "grunt": "^1.0.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nothinghalosix/tailwind-css-boilerplate.git"
   },
-  "devDependencies": {
-    "grunt-contrib-cssmin": "^2.2.1",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0"
-  }
+  "author": "wolfie sch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nothinghalosix/tailwind-css-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nothinghalosix/tailwind-css-boilerplate#readme"
 }
