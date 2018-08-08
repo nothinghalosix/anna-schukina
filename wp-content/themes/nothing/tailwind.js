@@ -48,9 +48,9 @@ let colors = {
 
   'black': '#22292f',
   'grey-darkest': '#3d4852',
-  'grey-darker': '#606f7b',
-  'grey-dark': '#8795a1',
-  'grey': '#b8c2cc',
+  //'grey-darker': '#606f7b',
+  //'grey-dark': '#8795a1',
+  // 'grey': '#b8c2cc',
   'grey-light': '#dae1e7',
   'grey-lighter': '#f1f5f8',
   'grey-lightest': '#f8fafc',
@@ -132,6 +132,8 @@ let colors = {
   'brown': '#484041',
   'violet': '#434371',
   'turquoise': '#79AEA3',
+  'grey-darker': '#333333',
+  'grey-dark': '#666666',
 }
 
 module.exports = {
@@ -264,6 +266,8 @@ module.exports = {
     '3xl': '1.875rem',  // 30px
     '4xl': '2.25rem',   // 36px
     '5xl': '3rem',      // 48px
+    '6xl': '3.5rem',
+    '7xl': '4rem',
   },
 
 
