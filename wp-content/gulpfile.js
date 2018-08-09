@@ -25,16 +25,16 @@ var banner = [
 ].join('');
 
 gulp.task('css', function () {
-    return gulp.src('wp-content/themes/nothing/sass/main.scss')
+    return gulp.src('themes/nothing/sass/main.scss')
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 4 version'))
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('themes/nothing/css'))
     .pipe(cssnano())
     .pipe(rename({ suffix: '.min' }))
     .pipe(header(banner, { package : package }))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('themes/nothing/css'))
     .pipe(browserSync.reload({stream:true}));
 });
 
@@ -69,7 +69,7 @@ gulp.task('bs-reload', function () {
 });
 
 gulp.task('default', ['css', 'browser-sync'], function () {
-    gulp.watch("wp-content/themes/nothing/sass/**/*.scss", ['css']);
+    gulp.watch("themes/nothing/sass/**/*.scss", ['css']);
     // gulp.watch("src/js/*.js", ['js']);
     gulp.watch("http://localhost:8888/schukina/*.php", ['bs-reload']);
 });
