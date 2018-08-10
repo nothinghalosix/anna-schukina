@@ -173,11 +173,18 @@ module.exports = {
   |
   */
 
-  screens: {
-    'sm': '576px',
+  /*screens: {
+    'sm': '767px',
     'md': '768px',
     'lg': '992px',
     'xl': '1200px',
+  },*/
+
+  screens: {
+    'sm': {'max': '767px'},
+    'md': {'min': '768px', 'max': '991px'},
+    'lg': {'min': '992px', 'max': '1999px'},
+    'xl': {'min': '1200px'}
   },
 
 
@@ -658,6 +665,9 @@ module.exports = {
     '4': '1rem',
     '6': '1.5rem',
     '8': '2rem',
+    '10': '2.5rem',
+    '12': '3rem',
+    '14': '4rem',
   },
 
 

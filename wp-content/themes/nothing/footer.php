@@ -26,5 +26,8 @@ p.cc_message {
 
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
 <!-- End Cookie Consent plugin -->
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/behavior.js">
+
+</script>
 </body>
 </html>

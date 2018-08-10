@@ -10,6 +10,8 @@
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+      <script defer src="<?php bloginfo('template_directory'); ?>/fonts/fontawesome/all.min.js"></script>
+
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/tailwind-styles.css">
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/main.min.css">
     	<!-- <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/styles.min.css"> -->
