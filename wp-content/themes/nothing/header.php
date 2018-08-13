@@ -17,5 +17,11 @@
     	<!-- <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/styles.min.css"> -->
 </head>
 <body>
-  <div class="header">
+  <div id="top" class="header">
+    <div class="nav mt-4 fixed z-10">
+      <span><a class="text-3xl text-white no-underline mr-4" href="#top">home</a></span>
+      <span><a class="text-3xl text-white no-underline mr-4" href="#about">about</a></span>
+      <span><a class="text-3xl text-white no-underline mr-4" href="#service">service</a></span>
+      <span><a class="text-3xl text-white no-underline" href="#contact">contact</a></span>
+    </div>
   </div>

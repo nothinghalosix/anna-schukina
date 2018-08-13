@@ -35,10 +35,10 @@
       </div>
     </div>
     <div class="lg:w-1/2 sm:w-full h-screen">
-      <img src="http://dev.anna-schukina.com/wp-content/themes/nothing-UI/images/contact.jpg" alt="">
+      <img src="http://dev.anna-schukina.com/wp-content/themes/nothing-UI/images/section-1.jpg" alt="">
     </div>
     <!-- ####### -->
-    <div class="lg:w-1/2 sm:w-full h-screen">
+    <div id="about" class="lg:w-1/2 sm:w-full h-screen">
       <img src="http://dev.anna-schukina.com/wp-content/themes/nothing-UI/images/contact.jpg" alt="">
     </div>
     <div class="flex lg:w-1/2 sm:w-full bg-violet h-screen items-center">
@@ -60,10 +60,11 @@
       $service_website      = get_field('service_website');
       $service_proofing     = get_field('service_proofing');
     ?>
-    <div class="flex w-full bg-turquoise h-screen items-center">
+    <div id="service" class="flex w-full bg-turquoise h-screen items-center">
       <div class="flex-1">
         <div class="flex flex-wrap items-center">
           <div class="lg:w-1/3 md:w-1/3 sm:w-full sm:mx-4 sm:mb-8 text-center p-14">
+            <i class="fal fa-file-alt fa-7x mb-2"></i>
             <h2 class="text-4xl font-normal text-grey-darker mb-4">legal translation</h2>
             <?php
               echo '<div class="text-grey-dark text-lg">';
@@ -81,6 +82,7 @@
             ?>
           </div>
           <div class="lg:w-1/3 md:w-1/3 sm:w-full sm:mx-4 sm:mb-8 text-center p-14">
+            <i class="fal fa-pen fa-7x mb-2"></i>
             <h2 class="text-4xl font-normal text-grey-darker mb-4">proofreading</h2>
             <?php
               echo '<div class="text-grey-dark text-lg">';
@@ -92,7 +94,7 @@
       </div>
     </div>
     <!-- ######## -->
-    <div class="flex lg:w-1/2 sm:w-full bg-violet h-screen items-center">
+    <div id="contact" class="flex lg:w-1/2 sm:w-full bg-violet h-screen items-center">
       <div class="flex-1">
         <div class="mx-8">
           <h1 class="text-white lg:text-7xl md:text-7xl sm:text-6xl tracking-tight">contact</h1>
