@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Anna</title>
+      <title>Professional translations | Anna Schukina</title>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet">
 
@@ -18,7 +18,7 @@
 </head>
 <body>
   <div id="top" class="header">
-    <div class="nav mt-4 fixed z-10">
+    <div class="nav mt-4 fixed z-10 sm:hidden">
       <span><a class="text-3xl text-white no-underline mr-4" href="#top">home</a></span>
       <span><a class="text-3xl text-white no-underline mr-4" href="#about">about</a></span>
       <span><a class="text-3xl text-white no-underline mr-4" href="#service">service</a></span>

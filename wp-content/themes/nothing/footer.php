@@ -1,5 +1,5 @@
-<div class="footer">
-  <p>Design &amp; Development by <a href="https://www.wschuetzenhofer.at" target="_blank">nothing</a></p>
+<div class="footer bg-black text-center text-white py-4">
+  <p>Design &amp; Development by <a class="text-white hover:underline"href="https://www.wschuetzenhofer.at" target="_blank">nothing</a></p>
 </div>
 
 <?php //wp_footer(); ?>

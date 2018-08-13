@@ -1,7 +1,28 @@
 .nav {
   right: 30px; }
 
-.contact {
+.content h1 {
+  transform: scale(1, 1.5);
+  -webkit-transform: scale(1, 1.5);
+  /* Safari and Chrome */
+  -moz-transform: scale(1, 1.5);
+  /* Firefox */
+  -ms-transform: scale(1, 1.5);
+  /* IE 9+ */
+  -o-transform: scale(1, 1.5);
+  /* Opera */ }
+
+.content .first-section-img {
+  background-image: url("http://dev.anna-schukina.com/wp-content/themes/nothing-UI/images/section-1.jpg");
+  background-size: cover;
+  background-position: left top; }
+
+.content .about {
+  background-image: url("http://dev.anna-schukina.com/wp-content/uploads/2018/01/about.jpg");
+  background-size: cover;
+  background-position: left top; }
+
+.content .contact {
   background-image: url("http://dev.anna-schukina.com/wp-content/themes/nothing-UI/images/contact.jpg");
   background-size: cover;
   background-position: left top; }
