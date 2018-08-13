@@ -1,4 +1,4 @@
-<div class="footer bg-black text-center text-white py-4">
+<div class="footer bg-black text-center text-white py-2">
   <p>Design &amp; Development by <a class="text-white hover:underline"href="https://www.wschuetzenhofer.at" target="_blank">nothing</a></p>
 </div>
 

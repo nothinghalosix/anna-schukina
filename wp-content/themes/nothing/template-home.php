@@ -39,7 +39,6 @@
 
     <!-- ####### -->
     <div id="about" class="lg:w-1/2 sm:w-full h-screen about">
-      <!-- <img src="http://dev.anna-schukina.com/wp-content/uploads/2018/01/about.jpg" alt=""> -->
     </div>
     <div class="flex lg:w-1/2 sm:w-full bg-violet h-screen items-center">
       <div class="flex-1">
