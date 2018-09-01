@@ -34,11 +34,17 @@
         </div>
       </div>
     </div>
-    <div class="lg:w-1/2 sm:w-full h-screen first-section-img sm:hidden">
+    <?php
+      $start_image = get_field('start_image');
+    ?>
+    <div class="lg:w-1/2 sm:w-full h-screen first-section-img sm:hidden" style="background-image: url(<?php echo $start_image; ?>)" title="&copy; <?php the_field('image_copyright_start'); ?>">
     </div>
 
     <!-- ####### -->
-    <div id="about" class="lg:w-1/2 sm:w-full h-screen about">
+    <?php
+      $about_image = get_field('about_image');
+    ?>
+    <div id="about" class="lg:w-1/2 sm:w-full h-screen about" style="background-image: url(<?php echo $about_image; ?>)">
     </div>
     <div class="flex lg:w-1/2 sm:w-full bg-violet h-screen items-center">
       <div class="flex-1">
@@ -110,7 +116,11 @@
         </div>
       </div>
     </div>
-    <div class="lg:w-1/2 sm:w-full h-screen contact">
+
+    <?php
+      $contact_image = get_field('contact_image');
+    ?>
+    <div class="lg:w-1/2 sm:w-full h-screen contact sm:hidden" style="background-image: url(<?php echo $contact_image; ?>)" title="&copy; <?php the_field('image_copyright_contact'); ?>">
       <!-- <img src="http://dev.anna-schukina.com/wp-content/themes/nothing-UI/images/contact.jpg" alt=""> -->
     </div>
       <!-- <div class="flex lg:w-1/2 sm:w-full bg-brown h-screen">
