@@ -1,0 +1,58 @@
+# Translation of Themes - nothing in German
+# This file is distributed under the same license as the Themes - nothing package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-08 00:41:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Themes - nothing\n"
+
+# HEADER
+# MENU
+msgid "Our Way"
+msgstr "Unsere Art"
+
+# Portfolio
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "Congress & Seminars"
+msgstr "Kongresse & Seminare"
+
+msgid "Event & Concept Realization"
+msgstr "Eventmanagement & Inszinierung"
+
+msgid "Incentives & Group Bookings"
+msgstr "Incentice & Gruppenreisen"
+
+msgid "Team-Building & Advaenture Programm"
+msgstr "Teambuilding & Erlebnisprogramme"
+
+msgid "Location Finder"
+msgstr "Location Finder"
+
+msgid "Green Meetings"
+msgstr "Green Meetings"
+
+
+# HOME
+msgid "read more"
+msgstr "weiterlesen"
+
+
+# TEAM
+msgid "Our Colour Code"
+msgstr "Unser Farbcode"
+
+msgid "What distinguishes me:"
+msgstr "Was mich auszeichnet:"
+
+msgid "What my colleagues say about me:"
+msgstr "Das sagen meine Kollegen über mich:"
+
+msgid "The artist from whom I would like a portrait of myself:"
+msgstr "Von diesem Künstler hätte ich gerne ein Portrait von mir:"
